@@ -1,0 +1,2689 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0910.0334                               -->
+<workbook original-version='18.1' source-build='2024.2.3 (20242.24.0910.0334)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='supply_chain_data (supply_chain_data)' inline='true' name='federated.0txxpmo0udqk2114hfblf1dv8e1t' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='supply_chain_data' name='excel-direct.0qsgox2023pf401gispo31ujrz2v'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/dell/Desktop/Vanshika/Internship/Project_1/supply_chain_data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0qsgox2023pf401gispo31ujrz2v' name='supply_chain_data' table='[supply_chain_data$]' type='table'>
+          <columns gridOrigin='A1:Y101:no:A1:Y101:0' header='yes' outcome='6'>
+            <column datatype='string' name='Product type' ordinal='0' />
+            <column datatype='real' name='Total Revenue' ordinal='1' />
+            <column datatype='string' name='SKU' ordinal='2' />
+            <column datatype='real' name='Price' ordinal='3' />
+            <column datatype='integer' name='Availability' ordinal='4' />
+            <column datatype='integer' name='Number of products sold' ordinal='5' />
+            <column datatype='real' name='Revenue generated' ordinal='6' />
+            <column datatype='string' name='Customer demographics' ordinal='7' />
+            <column datatype='integer' name='Stock levels' ordinal='8' />
+            <column datatype='integer' name='Lead times' ordinal='9' />
+            <column datatype='integer' name='Order quantities' ordinal='10' />
+            <column datatype='integer' name='Shipping times' ordinal='11' />
+            <column datatype='string' name='Shipping carriers' ordinal='12' />
+            <column datatype='real' name='Shipping costs' ordinal='13' />
+            <column datatype='string' name='Supplier name' ordinal='14' />
+            <column datatype='string' name='Location' ordinal='15' />
+            <column datatype='integer' name='Lead time' ordinal='16' />
+            <column datatype='integer' name='Production volumes' ordinal='17' />
+            <column datatype='integer' name='Manufacturing lead time' ordinal='18' />
+            <column datatype='real' name='Manufacturing costs' ordinal='19' />
+            <column datatype='string' name='Inspection results' ordinal='20' />
+            <column datatype='real' name='Defect rates' ordinal='21' />
+            <column datatype='string' name='Transportation modes' ordinal='22' />
+            <column datatype='string' name='Routes' ordinal='23' />
+            <column datatype='real' name='Costs' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0qsgox2023pf401gispo31ujrz2v' name='supply_chain_data' table='[supply_chain_data$]' type='table'>
+          <columns gridOrigin='A1:Y101:no:A1:Y101:0' header='yes' outcome='6'>
+            <column datatype='string' name='Product type' ordinal='0' />
+            <column datatype='real' name='Total Revenue' ordinal='1' />
+            <column datatype='string' name='SKU' ordinal='2' />
+            <column datatype='real' name='Price' ordinal='3' />
+            <column datatype='integer' name='Availability' ordinal='4' />
+            <column datatype='integer' name='Number of products sold' ordinal='5' />
+            <column datatype='real' name='Revenue generated' ordinal='6' />
+            <column datatype='string' name='Customer demographics' ordinal='7' />
+            <column datatype='integer' name='Stock levels' ordinal='8' />
+            <column datatype='integer' name='Lead times' ordinal='9' />
+            <column datatype='integer' name='Order quantities' ordinal='10' />
+            <column datatype='integer' name='Shipping times' ordinal='11' />
+            <column datatype='string' name='Shipping carriers' ordinal='12' />
+            <column datatype='real' name='Shipping costs' ordinal='13' />
+            <column datatype='string' name='Supplier name' ordinal='14' />
+            <column datatype='string' name='Location' ordinal='15' />
+            <column datatype='integer' name='Lead time' ordinal='16' />
+            <column datatype='integer' name='Production volumes' ordinal='17' />
+            <column datatype='integer' name='Manufacturing lead time' ordinal='18' />
+            <column datatype='real' name='Manufacturing costs' ordinal='19' />
+            <column datatype='string' name='Inspection results' ordinal='20' />
+            <column datatype='real' name='Defect rates' ordinal='21' />
+            <column datatype='string' name='Transportation modes' ordinal='22' />
+            <column datatype='string' name='Routes' ordinal='23' />
+            <column datatype='real' name='Costs' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Y101:no:A1:Y101:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product type]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Product type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Revenue]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Total Revenue</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SKU</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SKU]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>SKU</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Price</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Availability</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Availability]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Availability</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of products sold</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of products sold]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Number of products sold</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue generated</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revenue generated]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Revenue generated</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer demographics</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer demographics]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Customer demographics</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stock levels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Stock levels]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Stock levels</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lead times</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lead times]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Lead times</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order quantities</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order quantities]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Order quantities</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping times</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shipping times]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Shipping times</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping carriers</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Shipping carriers]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Shipping carriers</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping costs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shipping costs]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Shipping costs</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Supplier name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Supplier name]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Supplier name</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lead time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lead time]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Lead time</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Production volumes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Production volumes]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Production volumes</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Manufacturing lead time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Manufacturing lead time]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Manufacturing lead time</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Manufacturing costs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Manufacturing costs]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Manufacturing costs</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inspection results</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Inspection results]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Inspection results</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Defect rates</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Defect rates]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Defect rates</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transportation modes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Transportation modes]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Transportation modes</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Routes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Routes]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Routes</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Costs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Costs]</local-name>
+            <parent-name>[supply_chain_data]</parent-name>
+            <remote-alias>Costs</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Product type]' role='dimension' type='nominal' />
+      <column datatype='string' name='[SKU]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='supply_chain_data' datatype='table' name='[__tableau_internal_object_id__].[supply!chain!data_CD93CD5059E546EF9723E18391219162]' role='measure' type='quantitative' />
+      <column-instance column='[Product type]' derivation='None' name='[none:Product type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[SKU]' derivation='None' name='[none:SKU:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Product type)' hidden='true' name='[Action (Product type)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Product type]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Product type,SKU)' hidden='true' name='[Action (Product type,SKU)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Product type]' />
+          <groupfilter function='level-members' level='[SKU]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/dell/AppData/Local/Temp/TableauTemp/#TableauTemp_1v7dg5q1ad9a12180ql4k0ow74tq.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/21/2024 03:53:44 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Product type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Product type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product type</remote-alias>
+              <ordinal>0</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Revenue</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total Revenue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Revenue</remote-alias>
+              <ordinal>1</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SKU</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SKU]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SKU</remote-alias>
+              <ordinal>2</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Price</remote-alias>
+              <ordinal>3</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Availability</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Availability]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Availability</remote-alias>
+              <ordinal>4</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>63</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of products sold</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number of products sold]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number of products sold</remote-alias>
+              <ordinal>5</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>96</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Revenue generated</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Revenue generated]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Revenue generated</remote-alias>
+              <ordinal>6</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer demographics</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer demographics]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer demographics</remote-alias>
+              <ordinal>7</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Stock levels</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Stock levels]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Stock levels</remote-alias>
+              <ordinal>8</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Lead times</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Lead times]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Lead times</remote-alias>
+              <ordinal>9</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order quantities</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Order quantities]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order quantities</remote-alias>
+              <ordinal>10</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>61</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Shipping times</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Shipping times]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Shipping times</remote-alias>
+              <ordinal>11</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Shipping carriers</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Shipping carriers]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Shipping carriers</remote-alias>
+              <ordinal>12</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Shipping costs</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Shipping costs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Shipping costs</remote-alias>
+              <ordinal>13</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Supplier name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Supplier name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Supplier name</remote-alias>
+              <ordinal>14</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Location</remote-alias>
+              <ordinal>15</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Lead time</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Lead time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Lead time</remote-alias>
+              <ordinal>16</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Production volumes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Production volumes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Production volumes</remote-alias>
+              <ordinal>17</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>96</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Manufacturing lead time</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Manufacturing lead time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Manufacturing lead time</remote-alias>
+              <ordinal>18</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Manufacturing costs</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Manufacturing costs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Manufacturing costs</remote-alias>
+              <ordinal>19</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Inspection results</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Inspection results]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Inspection results</remote-alias>
+              <ordinal>20</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Defect rates</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Defect rates]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Defect rates</remote-alias>
+              <ordinal>21</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Transportation modes</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Transportation modes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Transportation modes</remote-alias>
+              <ordinal>22</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Routes</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Routes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Routes</remote-alias>
+              <ordinal>23</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Costs</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Costs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Costs</remote-alias>
+              <ordinal>24</ordinal>
+              <family>supply_chain_data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[supply!chain!data_CD93CD5059E546EF9723E18391219162]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:SKU:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;SKU28&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SKU48&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SKU68&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SKU8&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SKU88&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SKU0&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SKU20&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SKU40&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SKU60&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SKU80&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SKU24&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SKU4&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SKU44&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SKU64&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SKU84&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SKU12&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SKU32&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SKU52&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SKU72&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SKU92&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SKU29&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SKU49&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SKU69&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SKU89&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SKU9&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SKU25&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SKU45&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SKU5&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SKU65&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SKU85&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SKU18&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SKU38&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SKU58&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SKU78&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SKU98&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SKU1&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SKU21&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SKU41&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SKU61&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SKU81&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SKU16&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SKU36&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SKU56&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SKU76&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SKU96&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SKU26&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SKU46&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SKU6&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SKU66&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SKU86&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SKU13&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SKU33&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SKU53&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SKU73&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SKU93&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SKU14&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SKU34&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SKU54&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SKU74&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SKU94&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SKU17&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SKU37&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SKU57&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SKU77&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SKU97&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SKU19&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SKU39&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SKU59&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SKU79&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SKU99&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SKU10&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SKU30&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SKU50&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SKU70&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SKU90&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SKU27&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SKU47&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SKU67&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SKU7&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SKU87&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SKU2&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SKU22&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SKU42&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SKU62&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SKU82&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SKU15&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SKU35&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SKU55&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SKU75&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SKU95&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SKU11&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SKU31&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SKU51&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SKU71&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SKU91&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SKU23&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SKU3&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SKU43&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SKU63&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SKU83&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Product type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;cosmetics&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;skincare&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;haircare&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='supply_chain_data' id='supply!chain!data_CD93CD5059E546EF9723E18391219162'>
+            <properties context=''>
+              <relation connection='excel-direct.0qsgox2023pf401gispo31ujrz2v' name='supply_chain_data' table='[supply_chain_data$]' type='table'>
+                <columns gridOrigin='A1:Y101:no:A1:Y101:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Product type' ordinal='0' />
+                  <column datatype='real' name='Total Revenue' ordinal='1' />
+                  <column datatype='string' name='SKU' ordinal='2' />
+                  <column datatype='real' name='Price' ordinal='3' />
+                  <column datatype='integer' name='Availability' ordinal='4' />
+                  <column datatype='integer' name='Number of products sold' ordinal='5' />
+                  <column datatype='real' name='Revenue generated' ordinal='6' />
+                  <column datatype='string' name='Customer demographics' ordinal='7' />
+                  <column datatype='integer' name='Stock levels' ordinal='8' />
+                  <column datatype='integer' name='Lead times' ordinal='9' />
+                  <column datatype='integer' name='Order quantities' ordinal='10' />
+                  <column datatype='integer' name='Shipping times' ordinal='11' />
+                  <column datatype='string' name='Shipping carriers' ordinal='12' />
+                  <column datatype='real' name='Shipping costs' ordinal='13' />
+                  <column datatype='string' name='Supplier name' ordinal='14' />
+                  <column datatype='string' name='Location' ordinal='15' />
+                  <column datatype='integer' name='Lead time' ordinal='16' />
+                  <column datatype='integer' name='Production volumes' ordinal='17' />
+                  <column datatype='integer' name='Manufacturing lead time' ordinal='18' />
+                  <column datatype='real' name='Manufacturing costs' ordinal='19' />
+                  <column datatype='string' name='Inspection results' ordinal='20' />
+                  <column datatype='real' name='Defect rates' ordinal='21' />
+                  <column datatype='string' name='Transportation modes' ordinal='22' />
+                  <column datatype='string' name='Routes' ordinal='23' />
+                  <column datatype='real' name='Costs' ordinal='24' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_5C9C35A4C0754984961F1C673F374890]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Product performance dashboard' type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Product performance dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_F3650D5AEDF04B169BAC1D51FA7EC4F2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Product performance dashboard' type='sheet' worksheet='Sheet 3' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Product performance dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_8EAA92C96741467EBD43175619DA46AF]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Product performance dashboard' type='sheet' worksheet='Sheet 4' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Product performance dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4_CF8A561D848B4A56852883BDEB0418AB]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Product performance dashboard' type='sheet' worksheet='Sheet 2' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Product performance dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Product sales</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='supply_chain_data (supply_chain_data)' name='federated.0txxpmo0udqk2114hfblf1dv8e1t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0txxpmo0udqk2114hfblf1dv8e1t'>
+            <column datatype='integer' name='[Number of products sold]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Product type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SKU]' role='dimension' type='nominal' />
+            <column-instance column='[Product type]' derivation='None' name='[none:Product type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SKU]' derivation='None' name='[none:SKU:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of products sold]' derivation='Sum' name='[sum:Number of products sold:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type)]'>
+            <groupfilter function='level-members' level='[Product type]' user:ui-action-filter='[Action4_CF8A561D848B4A56852883BDEB0418AB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type,SKU)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_8EAA92C96741467EBD43175619DA46AF]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Product type]' />
+              <groupfilter function='level-members' level='[SKU]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type)]</column>
+            <column>[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type,SKU)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:SKU:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0txxpmo0udqk2114hfblf1dv8e1t].[sum:Number of products sold:qk]</rows>
+        <cols>([federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:Product type:nk] / [federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:SKU:nk])</cols>
+      </table>
+      <simple-id uuid='{21483ECC-D7D6-4F1B-88EB-3B3BF992A0B6}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Revenue analysis</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='supply_chain_data (supply_chain_data)' name='federated.0txxpmo0udqk2114hfblf1dv8e1t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0txxpmo0udqk2114hfblf1dv8e1t'>
+            <column datatype='string' name='[Product type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SKU]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Total Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[Product type]' derivation='None' name='[none:Product type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Revenue]' derivation='Sum' name='[sum:Total Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type,SKU)]'>
+            <groupfilter function='union' user:ui-action-filter='[Action1_5C9C35A4C0754984961F1C673F374890]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[Product type]' member='&quot;cosmetics&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU29&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU33&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU35&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU38&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU44&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU49&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU50&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU59&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU62&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU71&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU72&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU73&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU85&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU88&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU89&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU91&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU92&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU94&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU96&quot;' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[Product type]' member='&quot;haircare&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU0&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU12&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU18&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU2&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU22&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU24&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU25&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU26&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU30&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU43&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU45&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU46&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU48&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU5&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU51&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU54&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU55&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU57&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU61&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU68&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU70&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU74&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU76&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU77&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU78&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU79&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU81&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU83&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU84&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU87&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU93&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU95&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU97&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU99&quot;' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[Product type]' member='&quot;skincare&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU1&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU10&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU11&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU13&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU14&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU15&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU16&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU19&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU20&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU3&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU31&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU32&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU34&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU36&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU37&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU39&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU4&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU40&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU41&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU42&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU47&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU52&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU53&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU56&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU58&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU6&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU60&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU63&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU64&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU65&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU66&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU67&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU69&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU75&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU80&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU82&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU86&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU9&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU90&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU98&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type,SKU)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:Product type:nk]' />
+              <wedge-size column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[sum:Total Revenue:qk]' />
+              <size column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[sum:Total Revenue:qk]' />
+              <text column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:Product type:nk]' />
+              <text column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[sum:Total Revenue:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{921FCC5D-7376-43DE-9DB6-47B3CCA0FD48}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Price distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='supply_chain_data (supply_chain_data)' name='federated.0txxpmo0udqk2114hfblf1dv8e1t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0txxpmo0udqk2114hfblf1dv8e1t'>
+            <column datatype='real' name='[Price]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Product type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SKU]' role='dimension' type='nominal' />
+            <column-instance column='[Product type]' derivation='None' name='[none:Product type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SKU]' derivation='None' name='[none:SKU:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Price]' derivation='Sum' name='[sum:Price:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type)]'>
+            <groupfilter function='level-members' level='[Product type]' user:ui-action-filter='[Action4_CF8A561D848B4A56852883BDEB0418AB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type,SKU)]'>
+            <groupfilter function='union' user:ui-action-filter='[Action1_5C9C35A4C0754984961F1C673F374890]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[Product type]' member='&quot;cosmetics&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU29&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU33&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU35&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU38&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU44&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU49&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU50&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU59&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU62&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU71&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU72&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU73&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU85&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU88&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU89&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU91&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU92&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU94&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU96&quot;' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[Product type]' member='&quot;haircare&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU0&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU12&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU18&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU2&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU22&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU24&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU25&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU26&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU30&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU43&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU45&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU46&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU48&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU5&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU51&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU54&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU55&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU57&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU61&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU68&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU70&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU74&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU76&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU77&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU78&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU79&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU81&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU83&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU84&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU87&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU93&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU95&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU97&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU99&quot;' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[Product type]' member='&quot;skincare&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU1&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU10&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU11&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU13&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU14&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU15&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU16&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU19&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU20&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU3&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU31&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU32&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU34&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU36&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU37&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU39&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU4&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU40&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU41&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU42&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU47&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU52&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU53&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU56&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU58&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU6&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU60&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU63&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU64&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU65&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU66&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU67&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU69&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU75&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU80&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU82&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU86&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU9&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU90&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU98&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type,SKU)]</column>
+            <column>[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:Product type:nk]' value='170' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:SKU:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0txxpmo0udqk2114hfblf1dv8e1t].[sum:Price:qk]</rows>
+        <cols>[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:Product type:nk]</cols>
+      </table>
+      <simple-id uuid='{3740FFCB-9714-4AE9-BC5A-06AEE0C11794}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Stock levels</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='supply_chain_data (supply_chain_data)' name='federated.0txxpmo0udqk2114hfblf1dv8e1t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0txxpmo0udqk2114hfblf1dv8e1t'>
+            <column datatype='string' name='[Product type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SKU]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Stock levels]' role='measure' type='quantitative' />
+            <column-instance column='[Product type]' derivation='None' name='[none:Product type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SKU]' derivation='None' name='[none:SKU:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stock levels]' derivation='Sum' name='[sum:Stock levels:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type)]'>
+            <groupfilter function='level-members' level='[Product type]' user:ui-action-filter='[Action4_CF8A561D848B4A56852883BDEB0418AB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type,SKU)]'>
+            <groupfilter function='union' user:ui-action-filter='[Action1_5C9C35A4C0754984961F1C673F374890]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[Product type]' member='&quot;cosmetics&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU29&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU33&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU35&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU38&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU44&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU49&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU50&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU59&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU62&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU71&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU72&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU73&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU85&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU88&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU89&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU91&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU92&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU94&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU96&quot;' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[Product type]' member='&quot;haircare&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU0&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU12&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU18&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU2&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU22&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU24&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU25&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU26&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU30&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU43&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU45&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU46&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU48&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU5&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU51&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU54&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU55&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU57&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU61&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU68&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU70&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU74&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU76&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU77&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU78&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU79&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU81&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU83&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU84&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU87&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU93&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU95&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU97&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU99&quot;' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[Product type]' member='&quot;skincare&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU1&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU10&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU11&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU13&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU14&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU15&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU16&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU19&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU20&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU3&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU31&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU32&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU34&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU36&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU37&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU39&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU4&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU40&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU41&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU42&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU47&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU52&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU53&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU56&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU58&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU6&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU60&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU63&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU64&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU65&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU66&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU67&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU69&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU75&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU80&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU82&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU86&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU9&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU90&quot;' />
+                  <groupfilter function='member' level='[SKU]' member='&quot;SKU98&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type,SKU)]</column>
+            <column>[federated.0txxpmo0udqk2114hfblf1dv8e1t].[Action (Product type)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[sum:Stock levels:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[sum:Stock levels:qk]' />
+              <text column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:Product type:nk]' />
+              <text column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:SKU:nk]' />
+              <color column='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:Product type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EFCC2C5C-6417-4D23-B005-E5FC0DD8FC7A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Product performance dashboard'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98004' id='16' param='vert' type-v2='layout-flow' w='97538' x='1231' y='998'>
+            <zone h='6235' id='17' type-v2='title' w='97538' x='1231' y='998'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='91769' id='4' type-v2='layout-basic' w='97538' x='1231' y='7233'>
+              <zone h='89773' id='7' param='horz' type-v2='layout-flow' w='95076' x='2462' y='8231'>
+                <zone h='89773' id='5' type-v2='layout-basic' w='95076' x='2462' y='8231'>
+                  <zone h='24095' id='9' name='Sheet 2' w='47537' x='2462' y='73909'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='41583' id='12' name='Sheet 3' w='47539' x='49999' y='8231'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='24095' id='13' name='Sheet 4' w='47539' x='49999' y='73909'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='8745' id='11' name='Sheet 2' pane-specification-id='0' param='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[sum:Total Revenue:qk]' type-v2='size' w='47537' x='2462' y='8231'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='4372' id='10' name='Sheet 2' pane-specification-id='0' param='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:Product type:nk]' type-v2='color' w='47537' x='2462' y='16976'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='28466' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:SKU:nk]' type-v2='color' w='47537' x='2462' y='21348'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='24095' id='3' name='Sheet 1' w='95076' x='2462' y='49814'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='18' param='vert' type-v2='layout-flow' w='97538' x='1231' y='998'>
+                <zone h='6235' id='17' type-v2='title' w='97538' x='1231' y='998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41583' id='12' is-fixed='true' name='Sheet 3' w='47539' x='49999' y='8231'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='200' h='24095' id='3' is-fixed='true' name='Sheet 1' w='95076' x='2462' y='49814'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='28466' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:SKU:nk]' type-v2='color' w='47537' x='2462' y='21348'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='199' h='24095' id='9' is-fixed='true' name='Sheet 2' w='47537' x='2462' y='73909'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8745' id='11' name='Sheet 2' pane-specification-id='0' param='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[sum:Total Revenue:qk]' type-v2='size' w='47537' x='2462' y='8231'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4372' id='10' name='Sheet 2' pane-specification-id='0' param='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:Product type:nk]' type-v2='color' w='47537' x='2462' y='16976'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='199' h='24095' id='13' is-fixed='true' name='Sheet 4' w='47539' x='49999' y='73909'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F6727C5A-AB25-4B96-A00D-A1EB448EEB1F}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:Product type:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[sum:Total Revenue:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8F09FACC-99A8-4284-848A-163FF2EB7738}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B5641421-2F13-4F93-8F3D-500D3B8D8252}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:Product type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8E8DFC2C-B264-400C-8111-F63087F98E2E}' />
+    </window>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0txxpmo0udqk2114hfblf1dv8e1t].[none:SKU:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{884F3199-7C52-4DE3-9EFF-66ADE80AAA6E}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Product performance dashboard'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2' />
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{6DDC4034-4855-4B40-B60D-0605BF0DED9D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Product performance dashboard' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
